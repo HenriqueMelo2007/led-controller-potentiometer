@@ -1,18 +1,18 @@
-# Title
+# LED CONTROLLER POTENTIOMETER
 
-![Project Preview](assets/preview.jpg)
+![Project Preview](assets/preview.png)
 
 ## Project Description
 
-Description here! lorem ipsum dolor 
+This Arduino project uses a potentiometer to control the state of 8 LEDs. As the resistance of the potentiometer is adjusted, the analog signal is read and mapped to a range between 0 and 8, which determines how many LEDs are turned on using digital outputs.
 
 ## Components
 
 - Arduino Uno
-- 
-- 
-- 
-- 
+- ( 8 ) LED
+- ( 8 ) Resistor 
+- Potentiometer
+- Breadboard
 
 
 > Project Status: concluded
@@ -45,7 +45,7 @@ To clone this repository to your local machine, follow these steps:
 2. **Clone Repository**: Use the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/HenriqueMelo2007/led-controller-potentiometer.git
 
 
 ## License
